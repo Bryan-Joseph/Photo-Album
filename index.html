@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+		<nav>
+			<ul>
+				<li id="a">Photo gallery</li>
+				<span>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#grid">Grid gallery</a></li>
+					<li><a href="#slide">Sliding gallery</a></li>
+				</span>
+			</ul>
+		</nav>
+		<section id="home">
+			<h1 style="padding: 50px 0px;text-align: center;">Welcome!<br>to my photo gallery</h1>
+		</section>
+		<section id="grid">
+			<h1 class="ab">Grid gallery</h1>
+
+			<img class="imgs" alt="a" src="Iron_Man.jpg">
+			<img class="imgs" alt="a" src="download.jpg">
+			<img class="imgs" alt="a" src="download%20(1).jpg">
+			<img class="imgs" alt="a" src="images.jpg">
+			<img class="imgs" alt="a" src="Infinity-War-Character-1-e1522877998782.jpg">
+			<img class="imgs" alt="a" src="l968u6yne0q21.jpg">
+			<img class="imgs" alt="a" src="Captain%20america.jpg">
+			<img class="imgs" alt="a" src="spider-man-avengers-poster.jpg">
+		</section>
+		<section id="slide">
+			<h1 class="ab">Sliding gallery</h1>
+			<div id="MyCarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<center>
+							<img id="img" alt="a" src="Iron_Man.jpg">
+							<div class="carousel-content">
+								<p>Iron man</p>
+							</div>
+						</center>
+					</div>
+					<div class="item">
+						<center>
+							<img id="img" alt="a" src="Captain%20america.jpg">
+							<div class="carousel-content">
+								<p>Captain America</p>
+							</div>
+						</center>
+					</div>
+					<div class="item">
+						<center>
+							<img id="img" alt="a" src="download.jpg">
+							<div class="carousel-content">
+								<p>Dr Strange</p>
+							</div>
+						</center>
+					</div>
+					<div class="item">
+						<center>
+							<img id="img" alt="a" src="Infinity-War-Character-1-e1522877998782.jpg">
+							<div class="carousel-content">
+								<p>Black Panther</p>
+							</div>
+						</center>
+					</div>
+					<div class="item">
+						<center>
+							<img id="img" alt="a" src="images.jpg">
+							<div class="carousel-content">
+								<p>Hulk</p>
+							</div>
+						</center>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#MyCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#MyCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+				<ol class="carousel-indicators">
+					<li data-target="#MyCarousel" data-slide-to="0" class="active"></li>
+					
+					<li data-target="#MyCarousel" data-slide-to="1"></li>
+					<li data-target="#MyCarousel" data-slide-to="2"></li>
+					<li data-target="#MyCarousel" data-slide-to="3"></li>
+					<li data-target="#MyCarousel" data-slide-to="4"></li>
+				</ol>
+			</div>
+		</section>
+	</div>
+
+
+</body></html>
